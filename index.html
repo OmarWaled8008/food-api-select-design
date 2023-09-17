@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Login</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="icon" type="image/x-icon" href="pics/favicon.jpg" />
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <div class="container">
+    <input onkeyup="search(this.value)" class="form-control" id="inputSearch" type="search" placeholder="search input"
+      aria-label="default input example">
+    <br>
+    <select id="select" class="form-select" aria-label="Default select example">
+      <option selected >select food</option>
+      <option value="carrot">carrot</option>
+      <option value="broccoli">broccoli</option>
+      <option value="asparagus">asparagus</option>
+      <option value="cauliflower">cauliflower</option>
+      <option value="corn">corn</option>
+      <option value="cucumber">cucumber</option>
+      <option value="lettuce">lettuce</option>
+      <option value="mushrooms">mushrooms</option>
+      <option value="onion">onion</option>
+      <option value="potato">potato</option>
+    </select>
+    <br>
+    <div class="row gap-5" id="demoDiv">
+
+    </div>
+  </div>
+
+  <!-- ////////////files-linking//////////// -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
